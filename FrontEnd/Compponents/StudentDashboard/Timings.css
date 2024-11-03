@@ -1,0 +1,14 @@
+/* src/components/StudentDashboard/Timings.css */
+.timings {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .note {
+    font-size: 0.9em;
+    color: #555;
+  }
+  

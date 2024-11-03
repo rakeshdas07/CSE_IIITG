@@ -1,0 +1,63 @@
+/* src/styles/studentdashboard.css */
+
+.student-dashboard {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    font-family: Arial, sans-serif; /* Set a consistent font */
+}
+
+.student-dashboard .header {
+    background-color: #4CAF50; /* Primary color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px; /* Increase font size for better visibility */
+}
+
+.student-dashboard .menu-section {
+    margin: 20px 0;
+}
+
+.student-dashboard .menu-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.student-dashboard .menu-item:hover {
+    transform: scale(1.05);
+}
+
+.student-dashboard .notice-board {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.student-dashboard .calendar {
+    margin: 20px 0;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .student-dashboard .menu-item {
+        padding: 12px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .student-dashboard .header {
+        font-size: 20px; /* Adjust header size for small screens */
+    }
+
+    .student-dashboard .menu-item {
+        padding: 10px; /* Further adjust padding for very small screens */
+    }
+}

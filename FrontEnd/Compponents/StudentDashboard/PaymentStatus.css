@@ -1,0 +1,14 @@
+/* src/components/StudentDashboard/PaymentStatus.css */
+.payment-status {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.payment-status p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
