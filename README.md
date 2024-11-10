@@ -30,12 +30,27 @@ The system aims to:
 
 - [Features](#features)
 - [Objectives](#objectives)
+- [Requirement Analysis](#requirement-analysis)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Requirement Analysis
+
+### Technical Requirements:
+- **Frontend**: React.js creates a dynamic and interactive user interface for component-based development.
+- **Backend**: Node.js and Express.js to handle server-side logic and API routes.
+- **Database**: MongoDB to store user data (students and admins), feedback, payment records, and meal menus.
+- **Authentication**: JSON Web Tokens (JWT) to handle user authentication and session management.
+
+### Non-Technical Requirements:
+- **Usability**: Easy to navigate, with a simple registration and login flow.
+- **Accessibility**: Cross-browser compatibility, mobile responsiveness.
+- **Security**: Password encryption, secure API endpoints, and validation checks.
+
 
 ## Tech Stack
 
