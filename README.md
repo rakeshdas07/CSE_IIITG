@@ -160,7 +160,7 @@ FrontEnd/
     |       ├── Navbar.js
     │       ├── Footer.css    
     │       ├── Footer.js
-    |	      ├── PrivateRoute.js
+    |       ├── PrivateRoute.js
     ├── context/
     │       └── authContext.js
     ├── services/
