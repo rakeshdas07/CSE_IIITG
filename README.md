@@ -263,7 +263,7 @@ Add screenshots here for the **Student Dashboard**, **Admin Dashboard**, and oth
 
 ![Home page](https://github.com/user-attachments/assets/cb5652fb-413e-42ee-b5c5-263a50296260)
 
-![Student Login](https://github.com/user-attachments/assets/10569ba2-4aac-4259-b199-8c508f1e88cf)
+![Student Registration](https://github.com/user-attachments/assets/f3b16813-e4a4-437b-9372-329b6389b677)
 
 ---
 
