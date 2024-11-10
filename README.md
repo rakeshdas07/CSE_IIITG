@@ -41,12 +41,12 @@ The system aims to:
 
 The project is built with:
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, JavaScript, React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
-- **Payment Integration**: [Razorpay]
-- **Deployment**: [LocalHost]
+- **Payment Integration**: Razorpay
+- **Deployment**: LocalHost
 
 ## Getting Started
 
