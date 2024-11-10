@@ -276,4 +276,4 @@ Screenshots here for the **Student Dashboard**, **Admin Dashboard**, and other m
 
 ---
 
-This `README.md` provides a comprehensive overview of the project, including setup instructions, functionality, contribution guidelines, and future enhancements. This should help contributors and users to quickly understand the purpose and structure of the **Hostel Mess Management System**.
+This `README.md` provides a comprehensive overview of the project, including setup instructions, functionality, contribution guidelines, and future enhancements. This helps to quickly understand the purpose and structure of the **Hostel Mess Management System**.
