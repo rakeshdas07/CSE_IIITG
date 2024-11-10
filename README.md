@@ -247,19 +247,12 @@ Contributions are welcome! Follow these steps to contribute:
 
 7. **Submit a Pull Request**: Go to the original repository and create a pull request from your fork.
 
-### Code of Conduct
-
-Please adhere to the repository’s [Code of Conduct](CODE_OF_CONDUCT.md) for contributing.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ### Screenshots
 
-Add screenshots here for the **Student Dashboard**, **Admin Dashboard**, and other main views to give users a preview of the application.
+Screenshots here for the **Student Dashboard**, **Admin Dashboard**, and other main views to give users a preview of the application.
 
 ![Home page](https://github.com/user-attachments/assets/cb5652fb-413e-42ee-b5c5-263a50296260)
 
