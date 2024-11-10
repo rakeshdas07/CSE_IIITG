@@ -36,7 +36,8 @@ The system aims to:
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)
 
 ## Requirement Analysis
 
@@ -250,7 +251,7 @@ Contributions are welcome! Follow these steps to contribute:
 
 ---
 
-### Screenshots
+## Screenshots
 
 Screenshots here for the **Student Dashboard**, **Admin Dashboard**, and other main views to give users a preview of the application.
 
@@ -268,7 +269,7 @@ Screenshots here for the **Student Dashboard**, **Admin Dashboard**, and other m
 
 ---
 
-### Future Enhancements
+## Future Enhancements
 
 - **Automated Meal Notifications**: Send meal reminders to students.
 - **Advanced Analytics**: Implement data analysis for feedback trends and payment tracking.
