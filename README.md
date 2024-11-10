@@ -262,6 +262,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Add screenshots here for the **Student Dashboard**, **Admin Dashboard**, and other main views to give users a preview of the application.
 
 ![Home page](https://github.com/user-attachments/assets/cb5652fb-413e-42ee-b5c5-263a50296260)
+
+![Student Login](https://github.com/user-attachments/assets/10569ba2-4aac-4259-b199-8c508f1e88cf)
+
 ---
 
 ### Future Enhancements
