@@ -2,7 +2,7 @@
 import { notify } from '../../helper/notify';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuthContext } from '../../context/authContext'; 
+//import { useAuthContext } from '../../context/authContext'; 
 import './Login.css';  
 
 
@@ -12,7 +12,7 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
-  const { dispatch } = useAuthContext()
+  //const { dispatch } = useAuthContext()
   const navigator = useNavigate()
   var json = ''
 
@@ -25,7 +25,7 @@ const Login = () => {
   
       const login = {email, password}
       setLoading(true)
-      const response = await fetch('http://localhost:3000/api/users/login', {
+      const response = await fetch('http://localhost:3030/api/users/login', {
   
         method: 'POST',
         body: JSON.stringify(login),
@@ -49,10 +49,10 @@ const Login = () => {
       if(response.ok) {
         try {
           localStorage.setItem('user', JSON.stringify(json))
-          dispatch({type: 'LOGIN', payload: json})
+          //dispatch({type: 'LOGIN', payload: json})
           setEmail('')
           setPassword('')
-          navigator('/studentdashboard')
+          navigator('/student-dashboard')
         } catch(e) {
           throw new Error(e)
         }
