@@ -157,18 +157,18 @@ FrontEnd/
     │   │   ├── FeedbackAnalysis.js
     │   └── common/
     │       ├── Navbar.js
-    |	├── Navbar.css
-    |	├── Footer.css
+    |	      ├── Navbar.css
+    |	      ├── Footer.css
     │       ├── Footer.js
-    |	├── PrivateRoute.js
+    |	      ├── PrivateRoute.js
     ├── context/
-    │   └── authContext.js
+    │       └── authContext.js
     ├── services/
-    │   └── api.js
+    │       └── api.js
     ├── App.js
     ├── index.js
     └── styles/
-    └── common.css
+            └── common.css
 
 
 
