@@ -157,8 +157,8 @@ FrontEnd/
     │   │   ├── FeedbackAnalysis.js
     │   └── common/
     │       ├── Navbar.js
-    |	      ├── Navbar.css
-    |	      ├── Footer.css
+    |       ├── Navbar.js
+    │       ├── Footer.css    
     │       ├── Footer.js
     |	      ├── PrivateRoute.js
     ├── context/
