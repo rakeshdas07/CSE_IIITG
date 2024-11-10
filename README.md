@@ -98,7 +98,6 @@ Ensure you have the following installed:
 
 ### Seed Database (Optional)
 
-If the project includes scripts or mock data to initialize the database with sample users, menu items, etc., provide details here:
 
 ```bash
 npm run seed
