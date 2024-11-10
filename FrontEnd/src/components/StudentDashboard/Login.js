@@ -1,11 +1,65 @@
 // src/components/StudentDashboard/Login.js
+import { notify } from '../../helper/notify';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuthContext } from '../../context/authContext';  // Corrected path to authContext.js
-import './Login.css';  // Correct path for the CSS file
+import { useAuthContext } from '../../context/authContext'; 
+import './Login.css';  
+
+
 
 const Login = () => {
-  const [studentData, setStudentData] = useState({
+
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [loading, setLoading] = useState(false);
+  const { dispatch } = useAuthContext()
+  const navigator = useNavigate()
+  var json = ''
+
+
+  notify('You have successfully logged in!')
+
+  const handleLogin = async (e) => {
+  
+      e.preventDefault()
+  
+      const login = {email, password}
+      setLoading(true)
+      const response = await fetch('http://localhost:3000/api/users/login', {
+  
+        method: 'POST',
+        body: JSON.stringify(login),
+        headers : {
+          'Content-Type': 'application/json'
+        }
+      })
+
+      setLoading(false)
+      json = await response.json()
+      notify(json, 'You have successfully logged in!')
+
+      if(!response) {
+        try {
+          console.log(json)
+        } catch(e) {
+          throw new Error(e)
+        }
+      }
+
+      if(response.ok) {
+        try {
+          localStorage.setItem('user', JSON.stringify(json))
+          dispatch({type: 'LOGIN', payload: json})
+          setEmail('')
+          setPassword('')
+          navigator('/studentdashboard')
+        } catch(e) {
+          throw new Error(e)
+        }
+      }
+    }
+
+  /*const [studentData, setStudentData] = useState({
     email: '',
     password: '',
   });
@@ -44,32 +98,32 @@ const Login = () => {
       setError('INVALID EMAIL OR PASSWORD !');
     }
   };
-
+*/
   return (
     <div className="login-container">
       <div className="login-form">
         <h2>Student Login</h2>
-        {success && <div className="success-message">{success}</div>}
-        {error && <div className="error-message">{error}</div>}
-        <form onSubmit={handleSubmit}>
+      
+        <div>
           <input
             type="email"
             name="email"
             placeholder="Email"
-            value={studentData.email}
-            onChange={handleChange}
+            value={email}
+            onChange={(e)=>setEmail(e.target.value)}
             required
           />
           <input
             type="password"
             name="password"
             placeholder="Password"
-            value={studentData.password}
-            onChange={handleChange}
+            value={password}
+            onChange={(e)=>setPassword(e.target.value)}
+            autoComplete='current-password'
             required
           />
-          <button type="submit">Login</button>
-        </form>
+          <button type="submit" onClick={handleLogin} disabled={loading}>{loading ?<>loading...</>:<>login</>}</button>
+        </div>
       </div>
     </div>
   );
