@@ -215,6 +215,10 @@ BackEnd/
    - **Send Notices**: Publish notices visible to students.
    - **View Feedback**: Monitor and analyze feedback from students.
 
+### Activity Diagram
+
+![Activity Main drawio](https://github.com/user-attachments/assets/6e9f2f22-582d-4633-87c7-e8b61934de9d)
+
 ## Contributing
 
 Contributions are welcome! Follow these steps to contribute:
