@@ -19,17 +19,14 @@ const register= async(req, res)=>{
 
 const login= async(req, res)=>{
     try {
-        const {email, rollno, password}= req.body
+        const {email, password}= req.body
 
 
         const mail=await UserSchema.findOne({email: email})
         if(!mail){
             throw Error('Email does not exists.')
         }
-        const roll=await UserSchema.findOne({rollno, email})
-        if(!roll){
-            throw Error('Roll number does not exists.')
-        }
+        
         const pass=await UserSchema.findOne({password, email})
         if(!pass){
             throw Error('Password incorrect.')
