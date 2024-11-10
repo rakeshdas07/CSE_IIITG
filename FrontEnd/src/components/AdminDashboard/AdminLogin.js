@@ -8,7 +8,7 @@ const AdminLogin = () => {
 
 
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [pass, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   //const { dispatch } = useAuthContext()
   const navigator = useNavigate()
@@ -21,7 +21,7 @@ const AdminLogin = () => {
   
       e.preventDefault()
   
-      const login = {email, password}
+      const login = {email, pass}
       setLoading(true)
       const response = await fetch('http://localhost:3030/api/users/admin-login', {
   
@@ -114,7 +114,7 @@ const AdminLogin = () => {
             type="password"
             name="password"
             placeholder="Password"
-            value={password}
+            value={pass}
             onChange={(e)=>setPassword(e.target.value)}
             autoComplete='current-password'
             required
