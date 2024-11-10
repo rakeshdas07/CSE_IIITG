@@ -123,7 +123,56 @@ This command populates the database with initial data.
 ## Project Structure
 
 ```
-CSE_IIITG/
+FrontEnd/
+├── src/
+    ├── components/
+    │   ├── Homepage/
+    │   │   ├── HomePage.js
+    │   │   ├── HomePage.css
+    │   ├── StudentDashboard/
+    │   │   ├── Registration.js
+    │   │   ├── Registration.css
+    │   │   ├── Login.js
+    │   │   ├── Login.css
+    │   │   ├── PaymentStatus.js
+    │   │   ├── PaymentStatus.css
+    │   │   ├── NoticeBoard.js
+    │   │   ├── NoticeBoard.css
+    │   │   ├── Calendar.js
+    │   │   ├── Menu.js
+    │   │   ├── FeedbackForm.js
+    │   │   ├── Timings.js
+    │   │   ├── Timings.css
+    │   |	├── studentdashboard.js
+    │   |	├── studentdashboard.css
+    │   ├── AdminDashboard/
+    |   |   ├── AdminLogin.js
+    |   |   ├── AdminLogin.css
+    |   |   ├── AdminDashboard.js
+    |   |   ├── admindashboard.css
+    │   │   ├── MealPlan.js
+    │   │   ├── AttendanceReport.js
+    │   │   ├── BillingHistory.js
+    │   │   ├── ReportAnalytics.js
+    │   │   ├── FeedbackAnalysis.js
+    │   └── common/
+    │       ├── Navbar.js
+    |	├── Navbar.css
+    |	├── Footer.css
+    │       ├── Footer.js
+    |	├── PrivateRoute.js
+    ├── context/
+    │   └── authContext.js
+    ├── services/
+    │   └── api.js
+    ├── App.js
+    ├── index.js
+    └── styles/
+    └── common.css
+
+
+
+BackEnd/
 ├── public/                 # Static assets (CSS, JavaScript, images)
 ├── src/
 │   ├── models/             # Database models (e.g., Student, Admin, Menu, Payment)
