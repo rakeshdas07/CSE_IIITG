@@ -1,0 +1,158 @@
+/* General container styles */
+.dashboard-container {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    padding-top: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Fixed Header Styles */
+.dashboard-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98.5%;
+    background-color: #2E7D32;
+    color: white;
+    padding: 65px 20px 20px; /* Adjusted padding */
+    text-align: center;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-header h1 {
+    margin: 10px 0 0; /* Adds a bit of margin above the title */
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    flex: 1;
+    text-align: center;
+}
+
+/* Logout Button Style */
+.logout-button {
+    background-color: #1b5e20;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: auto; /* Right-aligns the button */
+}
+
+.logout-button:hover {
+    background-color: #145214;
+}
+
+/* Main Content Styles */
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px; /* Adjusted to compensate for the header */
+    gap: 60px;
+    padding: 50px;
+}
+
+/* Left, Center, Right, and Payment Columns */
+.left-column, .center-column, .right-column, .payment-column {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    width: 100%;
+    max-width: 500px;
+    max-height: 480px;
+    margin: 0 auto;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Separate Payment Box */
+.payment-column {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Section Titles */
+.dashboard-section h4, .dashboard-section h3 {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Menu Section with Payment Options */
+.menu-section {
+    margin-bottom: 60px;
+}
+
+/* Payment Section Inside Today's Menu */
+.payment-section {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Menu and Payment Button Styling */
+.payment-button {
+    margin-top: 20px;
+    padding: 12px 15px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.payment-button:hover {
+    background-color: #1b5e20;
+}
+
+.payment-button:disabled {
+    background-color: #b3b3b3;
+    cursor: not-allowed;
+}
+
+/* Feedback Form Styling */
+.feedback-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.feedback-form button {
+    margin-top: 15px;
+    padding: 12px 15px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left-column, .center-column, .right-column, .payment-column {
+        width: 100%;
+        max-width: none;
+    }
+}

@@ -1,0 +1,103 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Ensures left and right items are spaced out */
+  align-items: center;
+  background-color: #333; /* Black background */
+  padding: 10px 20px; /* Padding for spacing */
+  position: fixed; /* Keep navbar fixed at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100; /* Ensure navbar is on top */
+  box-sizing: border-box;
+}
+
+/* Left section (logo) styling */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Aligns logo and text to the left */
+}
+
+/* Logo image styling */
+.logo {
+  width: 40px; /* Size of the logo */
+  height: 40px;
+  margin-right: 10px; /* Spacing between logo and text */
+}
+
+/* Logo and text (Hostel Mess Management) styling */
+.navbar-logo {
+  font-size: 1.5rem;
+  color: white; /* White text */
+  text-decoration: none;
+}
+
+/* Navigation links container */
+.navbar-links {
+  display: flex;
+  gap: 20px; /* Space between items */
+  align-items: center;
+  margin-left: auto; /* Push links to the right */
+}
+
+/* Styling for each list item in navbar */
+.navbar-links li {
+  list-style: none;
+}
+
+/* Styling links and button in the navbar */
+.navbar-links a,
+.navbar-links button {
+  color: white; /* White text */
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 5px 10px; /* Padding for better click area */
+  margin-right: 5px;
+}
+
+.navbar-links a:hover,
+.navbar-links button:hover {
+  color: #0066cc; /* Highlight color on hover */
+}
+
+/* Modal background */
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Modal content */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-content button {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #004d99;
+}

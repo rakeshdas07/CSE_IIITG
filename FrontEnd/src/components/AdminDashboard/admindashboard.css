@@ -1,0 +1,128 @@
+/* Admin Dashboard Container */
+.admin-dashboard-container {
+  position: relative; /* Required for absolute positioning of the logout button */
+  padding: 45px;
+  background-color: #e9f7f1;  /* Soft light green background */
+  font-family: 'Arial', sans-serif;
+  height: 83vh;
+}
+
+/* Admin Dashboard Header */
+.admin-dashboard-header {
+  display: flex;
+  justify-content: space-between;  /* Ensures space between title and button */
+  align-items: center;
+  background-color: #057f2c; /* Light green background for header */
+  padding: 20px 30px;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 30px; /* Space below the header */
+}
+
+/* Center the Admin Dashboard Title */
+.admin-dashboard-header h1 {
+  font-size: 24px;
+  color: #f1f3f2;  /* Darker green for contrast */
+  margin: 0;
+  font-weight: 600;
+  flex-grow: 1; /* Ensures title takes available space */
+  text-align: center; /* Centers the title */
+}
+
+/* Logout Button Positioning */
+.logout-button {
+  padding: 10px 20px;
+  background-color: #057f2c; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 20px; /* Space between button and title */
+}
+
+.logout-button:hover {
+  background-color: #1b5e20; /* Darker green on hover */
+}
+
+/* Dashboard Sections Grid Layout */
+.dashboard-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* Individual Section Box Styling */
+.dashboard-section {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.dashboard-section:hover {
+  transform: translateY(-5px);  /* Slight lift effect on hover */
+}
+
+/* Section Header Styling */
+.dashboard-section h2 {
+  font-size: 24px;
+  color: #2c6e49;  /* Dark green */
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #f9fbf6;  /* Light background for tables */
+  border-radius: 8px;
+}
+
+table, th, td {
+  border: 1px solid #d1e8d4;  /* Light green border */
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Table Header Styling */
+th {
+  background-color: #057f2c;  /* Greenish background for table header */
+  color: white;
+}
+
+/* Table Cell Styling */
+td {
+  background-color: #ffffff;
+  color: #333;
+  font-weight: 500;
+}
+
+td:hover {
+  background-color: #f1f8f2;  /* Light green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-dashboard-header {
+    flex-direction: column;  /* Stack the title and logout button on smaller screens */
+    align-items: center;  /* Center align the title and button */
+  }
+  
+  .logout-button {
+    margin-top: 10px; /* Add some margin when stacked */
+  }
+
+  .dashboard-sections {
+    grid-template-columns: 1fr;  /* Stack sections on smaller screens */
+  }
+}

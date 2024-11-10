@@ -1,0 +1,93 @@
+/* Centering the registration form container on the screen */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87.7vh; /* Vertically center the form */
+    background-color: #f4f4f4; /* Subtle background color */
+}
+
+/* Form Box Styling */
+.registration-form {
+    display: flex;
+    flex-direction: column; /* Stack fields vertically */
+    max-width: 400px; /* Limit width */
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for aesthetics */
+}
+
+/* Heading (Student Registration) Styling */
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space between heading and form fields */
+    font-size: 24px;
+    color: #333; /* Dark color for contrast */
+}
+
+/* Input Fields Styling */
+.registration-form input {
+    margin-bottom: 15px; /* Space between fields */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Full width for input fields */
+}
+
+/* Input Focus Effect */
+.registration-form input:focus {
+    outline: none;
+    border-color: #4CAF50; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Green glow effect */
+}
+
+/* Submit Button Styling */
+.registration-form button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Full width button */
+}
+
+/* Button Hover Effect */
+.registration-form button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Error and Success Message Styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f8d7da;
+    border-radius: 4px;
+}
+
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #d4edda;
+    border-radius: 4px;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 600px) {
+    .registration-form {
+        padding: 15px;
+    }
+    .registration-form input,
+    .registration-form button {
+        font-size: 14px;
+    }
+}

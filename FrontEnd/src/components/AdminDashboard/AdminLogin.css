@@ -1,0 +1,87 @@
+/* Admin Login Container */
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e9f7f1; /* Soft green background */
+}
+
+/* Admin Login Form */
+.admin-login-form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.admin-login-form h2 {
+  font-size: 28px;
+  color: #2E7D32; /* Dark green */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.admin-login-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.admin-login-form input:focus {
+  border-color: #2E7D32; /* Green border on focus */
+}
+
+.admin-login-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #2E7D32; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-login-form button:hover {
+  background-color: #1b5e20; /* Darker green on hover */
+}
+
+/* Error and Success Messages */
+.admin-login-form .error-message,
+.admin-login-form .success-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Error Message Styling */
+.admin-login-form .error-message {
+  background-color: #923333; /* Dark red background */
+  color: white; /* White text */
+}
+
+/* Success Message Styling */
+.admin-login-form .success-message {
+  background-color: #81c784; /* Light green for success */
+  color: white;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .admin-login-form {
+    padding: 30px;
+    width: 90%;
+    max-width: 350px;
+  }
+}

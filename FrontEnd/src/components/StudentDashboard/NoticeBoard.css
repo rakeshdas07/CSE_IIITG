@@ -1,0 +1,43 @@
+/* src/components/StudentDashboard/NoticeBoard.css */
+
+.notice-board-container {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;  /* Increased padding for spacing */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 20px;  /* Separate from other sections */
+}
+
+.notice-board-header {
+    font-size: 20px;
+    font-weight: bold;  /* Corrected from 'flex' to 'bold' */
+    text-align: left;  /* Aligning title to the left */
+    margin-bottom: 15px;
+    color: #333;
+    width: 100%;  /* Ensure the title takes up full width */
+}
+
+.notice-board-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  /* Space between notices */
+}
+
+.notice-item {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notice-board-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.notice-board-content::-webkit-scrollbar-thumb {
+    background-color: #2e7d32;
+    border-radius: 20px;
+}

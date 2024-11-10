@@ -1,0 +1,25 @@
+.home-page {
+    text-align: center;
+    padding: 60px;
+    height: 76vh;
+  }
+  
+  .image-container {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .welcome-image {
+    width: 106%;
+    max-width: 12000px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
