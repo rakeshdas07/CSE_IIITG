@@ -143,8 +143,8 @@ FrontEnd/
     │   │   ├── FeedbackForm.js
     │   │   ├── Timings.js
     │   │   ├── Timings.css
-    │   |	├── studentdashboard.js
-    │   |	├── studentdashboard.css
+    │   │   ├── studentdashboard.js
+    │   │   ├── studentdashboard.css     
     │   ├── AdminDashboard/
     |   |   ├── AdminLogin.js
     |   |   ├── AdminLogin.css
@@ -157,18 +157,18 @@ FrontEnd/
     │   │   ├── FeedbackAnalysis.js
     │   └── common/
     │       ├── Navbar.js
-    |	├── Navbar.css
-    |	├── Footer.css
+    |       ├── Navbar.js
+    │       ├── Footer.css    
     │       ├── Footer.js
-    |	├── PrivateRoute.js
+    |       ├── PrivateRoute.js
     ├── context/
-    │   └── authContext.js
+    │       └── authContext.js
     ├── services/
-    │   └── api.js
+    │       └── api.js
     ├── App.js
     ├── index.js
     └── styles/
-    └── common.css
+            └── common.css
 
 
 
