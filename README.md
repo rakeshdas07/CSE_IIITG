@@ -265,6 +265,14 @@ Add screenshots here for the **Student Dashboard**, **Admin Dashboard**, and oth
 
 ![Student Registration](https://github.com/user-attachments/assets/f3b16813-e4a4-437b-9372-329b6389b677)
 
+![Student Login](https://github.com/user-attachments/assets/63d895dd-c7fd-45d9-94b7-08ac63543583)
+
+![Student Dashboard](https://github.com/user-attachments/assets/7164f744-11f7-407c-a24e-f0f298f9ed6d)
+
+![Admin Login](https://github.com/user-attachments/assets/c0004c84-64a8-49d2-a6ff-00f1fcf3a2d6)
+
+![Admin Dashboard](https://github.com/user-attachments/assets/35c81cb1-f0a8-4809-8b65-178457c02f87)
+
 ---
 
 ### Future Enhancements
