@@ -180,7 +180,6 @@ BackEnd/
 │   ├── routes/             # Defines API routes (studentRoutes, adminRoutes)
 │   ├── middleware/         # Middleware (authentication, error handling)
 │   └── views/              # View templates (HTML, EJS files if applicable)
-├── .env                    # Environment variables
 ├── package.json            # npm dependencies and scripts
 └── README.md               # Project documentation
 ```
