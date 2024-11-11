@@ -40,17 +40,22 @@ The system aims to:
 
 ## Requirement Analysis
 
-### Technical Requirements:
-- **Frontend**: React.js creates a dynamic and interactive user interface for component-based development.
-- **Backend**: Node.js and Express.js to handle server-side logic and API routes.
-- **Database**: MongoDB to store user data (students and admins), feedback, payment records, and meal menus.
+### Functional Requirements:
+
+- **User Management Student Registration/Login**
+- **Meal  Management & Meal Scheduling**
+- **Menu Management & Menu Planning**
+- **Billing and Payments**
+- **Admin Dashboard Centralized Control**
+- **Feedback Analytics**
+
   
 
-### Non-Technical Requirements:
+### Non-Functional Requirements:
 - **Usability**: Easy to navigate, with a simple registration and login flow.
 - **Accessibility**: Cross-browser compatibility, mobile responsiveness.
 - **Security**: Password encryption, secure API endpoints, and validation checks.
-
+- **Performance**: Quick response time.
 
 ## Tech Stack
 
