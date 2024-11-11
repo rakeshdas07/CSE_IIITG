@@ -174,10 +174,9 @@ FrontEnd/
 
 
 BackEnd/
-├── public/                 # Static assets (CSS, JavaScript, images)
 ├── src/
 │   ├── models/             # Database models (e.g., Student, Admin, Menu, Payment)
-│   ├── controllers/        # Logic for handling requests (StudentController, AdminController)
+│   ├── controllers/        # Logic for handling requests (StudentController,    AdminController)
 │   ├── routes/             # Defines API routes (studentRoutes, adminRoutes)
 │   ├── middleware/         # Middleware (authentication, error handling)
 │   └── views/              # View templates (HTML, EJS files if applicable)
