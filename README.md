@@ -42,10 +42,10 @@ The system aims to:
 
 ### Functional Requirements:
 
-- **User Management Student Registration/Login**
+- **User Management & Student Registration/Login**
 - **Meal  Management & Meal Scheduling**
 - **Menu Management & Menu Planning**
-- **Billing and Payments**
+- **Billing & Payments**
 - **Admin Dashboard Centralized Control**
 - **Feedback Analytics**
 
