@@ -35,7 +35,6 @@ The system aims to:
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
 
@@ -216,39 +215,6 @@ BackEnd/
 ### Activity Diagram
 
 ![Activity Main drawio](https://github.com/user-attachments/assets/6e9f2f22-582d-4633-87c7-e8b61934de9d)
-
-## Contributing
-
-Contributions are welcome! Follow these steps to contribute:
-
-1. **Fork the Repository**: Click the "Fork" button at the top-right of this repository.
-2. **Clone the Forked Repository**: 
-
-   ```bash
-   git clone https://github.com/your-username/CSE_IIITG.git
-   cd CSE_IIITG
-   ```
-
-3. **Create a New Branch**: 
-
-   ```bash
-   git checkout -b feature/YourFeatureName
-   ```
-
-4. **Make Changes**: Implement your changes or new features.
-5. **Commit Changes**: 
-
-   ```bash
-   git commit -m "Add your message here"
-   ```
-
-6. **Push to Your Fork**: 
-
-   ```bash
-   git push origin feature/YourFeatureName
-   ```
-
-7. **Submit a Pull Request**: Go to the original repository and create a pull request from your fork.
 
 
 ---
